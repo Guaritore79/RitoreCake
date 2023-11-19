@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Toko Kue</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="asset/logo.png" alt="">Ritore Cake</a>
+        <div class="bx bx-menu" id="menu-icon"><img src="asset/menu.png" alt=""></div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#cake-container">Menu</a></li>
+            <li><a href="#cart-container">Cart</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Fresh<br>Everyday</h1>
+            <p>
+                "This bitter life requires something sweet"
+            </p>
+            <a href="#" class="home-btn">Let's go now</a>
+        </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section class="containerr">
+        <div class="text">
+            <h2>Our Advantages</h2>
+        </div>
+
+        <div class="an1"></div>
+        <div class="an2"></div>
+        <div class="an4"></div>
+        <div class="an3"></div>
+
+        
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="asset/cookie.png" alt="">
+                </div>
+                <h4>Best Ingredients</h4>
+            </div>
+             
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="asset/dollar.png" alt="">
+                </div>
+                <h4>Competitive Price</h4>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="asset/resep.png" alt="">
+                </div>
+                <h4>Special Recipe</h4>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="asset/cake.png" alt="">
+                </div>
+                <h4>Customized Order</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- jual beli -->
+    <section class="sec-cakecontainer">
+        <h2>Our Product</h2>
+        <div id="cake-container">
+            <!-- Menampilkan kue  -->
+        </div>
+        <a href="#sec-pesanan" class="pesan" id="pesan">Go to The Cart</a>
+
+    </section>
+
+    <!-- Pesanan -->
+    <section class="sec-pesanan" id="sec-pesanan">
+        <div class="cart-container" id="cart-container">
+            <h2>Shopping card</h2>
+            <div id="cart-list">
+                <!-- Daftar Orderan -->
+            </div>
+
+            <p>Total : <span id="total-price">0</span></p>
+            <table>
+                <tr>
+                    <td> 
+                        <label for="nama">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamat">Address</label>
+                    </td>
+                    <td>
+                        <input type="text" id="alamat" placeholder="">
+                    </td>
+                </tr>
+            </table>                    
+            <br>
+            <button type="button" class="but-pesanskrg">Order Now</button>
+            <p>this transaction is cod (Cash on Delivery)</p>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="list">
+                    <h4>Contact info</h4>
+                    <ul>
+                        <li><a href="#">Kota Samarinda</a></li>
+                        <li><a href="#">Jln Manunggal</a></li>
+                        <li><a href="#">No 121</a></li>
+                        <li><a href="#">0823123421</a></li>
+                    </ul>
+                    <a href="https://twitter.com/ahmad54994q"><img src="asset/twit.png" alt="" srcset=""></a>
+                    <a href="https://www.instagram.com/yuuritore/"><img src="asset/ig.png" alt="" srcset=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="end-text">
+            <p>Made by <span>Guaritore</span></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
