@@ -54,7 +54,7 @@ const cakes = [
     {
     name : "Cookie",
     price : 5000,
-    image : "asset/Cookie.jpeg",
+    image : "asset/cookie.jpeg",
     },
     {
     name : "Cup Cake",
